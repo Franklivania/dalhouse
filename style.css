@@ -1,0 +1,2375 @@
+ul {
+  font-size: 90%;
+}
+
+form {
+  display: inline;
+}
+
+.centeraligntext {
+  text-align: center;
+  margin: 0px;
+}
+
+.leftaligntext {
+  text-align: left;
+  margin: 0px;
+}
+
+.rightaligntext {
+  text-align: right;
+  margin: 0px;
+}
+
+.menulisttext {
+  list-style: none;
+}
+
+.captiontext {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: italic;
+  text-align: left;
+  margin-top: 1em;
+}
+
+.skiplinks {
+  display: none;
+}
+
+#headerImage {
+  -webkit-box-shadow: 0 5px 5px -5px rgb(0 0 0 / 20%);
+  -moz-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 5px -5pxrgba (0, 0, 0, 0.2);
+  top: 0px;
+  margin-left: -10px;
+  margin-right: -10px;
+  height: 85px;
+  border-bottom: 2px solid #ffd400;
+}
+
+#headerImage img {
+  padding-top: 2px;
+  padding-left: 40px;
+}
+
+.pageheaderlinks {
+  position: absolute;
+  left: 0px;
+  top: 90px;
+  right: 0px;
+  display: block;
+  background-color: white;
+  padding: 5px;
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 70%;
+  text-align: right;
+}
+
+.requirementnotmet {
+  color: red;
+}
+
+/* Class for Sub-menu Items                                  */
+/* ========================================================  */
+.pageheaderlinks2 {
+  background-color: white;
+  color: white;
+  font-family: Arial, Verdana, Sans-Serif;
+  text-align: justify;
+}
+
+.pageheaderlinks2 p {
+  display: inline;
+}
+
+.pagebodylinks {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: normal;
+  text-align: center;
+}
+
+.gotoanchorlinks {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+}
+
+.pagefooterlinks {
+  color: white;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: center;
+  /* BROWSER CONSIDERATION - To make Netscape and IE compatible for PageFooter Division. */
+  /* Margin-left style specified for Netscape within parent SPAN tag,                    */
+  /* while IE uses the padding-left style within parent DIV tag.                         */
+  margin-left: 3px;
+}
+
+.backlinktext {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: normal;
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.menuheadertext {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 110%;
+  font-style: normal;
+  text-align: left;
+}
+
+.menulinktext {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.menulinkdesctext {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+}
+
+.normaltext {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+}
+
+.infotext {
+  display: block;
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+}
+
+.errortext {
+  color: #990033;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+}
+
+.warningtext {
+  color: #330000;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+}
+
+.multipagemsgtext {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+}
+
+.releasetext {
+  color: #999999;
+  /* color: white; */
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 70%;
+  font-style: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.requiredmsgtext {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 70%;
+  font-style: normal;
+  text-align: left;
+}
+
+.fieldlabeltext {
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+}
+
+.fieldlabeltextinvisible {
+  display: none;
+}
+
+.fieldrequiredtext {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+}
+
+.fieldformattext {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+}
+
+.fieldformatboldtext {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+}
+
+.fielderrortext {
+  color: #990033;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+}
+
+.fieldsmallboldtext {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 70%;
+  font-style: normal;
+  text-align: left;
+}
+
+.fieldsmalltext {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 70%;
+  font-style: normal;
+  text-align: left;
+}
+
+.fieldmediumtext {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+}
+
+.fieldlargetext {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 110%;
+  font-style: normal;
+  text-align: left;
+}
+
+.fieldmediumtextbold {
+  color: #1e2b83;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+}
+
+.fieldOrangetextbold {
+  color: #990033;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+}
+
+/* ANCHORS (LINKS)                                          */
+/* ======================================================== */
+A:link {
+  color: #336699;
+  text-decoration: none;
+}
+A:visited {
+  color: #336699;
+  text-decoration: none;
+}
+A:hover {
+  color: #336699;
+  text-decoration: underline;
+}
+A:visited:hover {
+  color: #336699;
+  text-decoration: underline;
+}
+A:active {
+  color: #990033;
+  text-decoration: underline;
+}
+
+/* ANCHOR Definitions for Home Page MenuItems class.        */
+/* ======================================================== */
+A.menulinktext {
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 80%;
+  font-style: normal;
+  color: #336699;
+  text-decoration: none;
+}
+
+A.submenulinktext {
+  font-family: Arial, Verdana, Sans-Serif;
+  font-style: normal;
+  text-transform: none;
+  color: #336699;
+  text-decoration: none;
+}
+
+A.submenulinktext:hover {
+  font-family: Arial, Verdana, Sans-Serif;
+  font-style: normal;
+  text-align: justify;
+  text-transform: none;
+  color: #336699;
+  text-decoration: underline;
+}
+
+A.submenulinktext:visited {
+  font-family: Arial, Verdana, Sans-Serif;
+  font-style: normal;
+  text-transform: none;
+  color: #336699;
+  text-decoration: none;
+}
+
+A.submenulinktext:visited:hover {
+  font-family: Arial, Verdana, Sans-Serif;
+  font-style: normal;
+  text-align: justify;
+  text-transform: none;
+  color: #336699;
+  text-decoration: underline;
+}
+
+A.submenulinktext:active {
+  font-family: Arial, Verdana, Sans-Serif;
+  font-style: normal;
+  text-align: justify;
+  text-transform: none;
+  color: #990033;
+  text-decoration: underline;
+}
+
+A.submenulinktext2 {
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+A.submenulinktext2:hover {
+  text-decoration: underline;
+}
+
+A.submenulinktext2:visited {
+  font-family: Arial, Verdana, Sans-Serif;
+  text-decoration: none;
+}
+
+A.submenulinktext2:visited:hover {
+  font-family: Arial, Verdana, Sans-Serif;
+  text-decoration: underline;
+}
+
+.pageheaderlinks .submenulinktext2 {
+  /*
+ color: white;
+*/
+}
+
+.pageheaderlinks .submenulinktext2:visited {
+  /*
+ color: white;
+*/
+}
+
+.pageheaderlinks .submenulinktext2:hover {
+  /*
+  color: white;
+*/
+}
+
+.pageheaderlinks .submenulinktext2:active {
+  /*
+  color: white;
+*/
+}
+
+A.whitespacelink {
+  line-height: 200%;
+  color: #336699;
+  text-decoration: none;
+}
+
+A.largelinktext {
+  font-family: Arial, verdana, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 120%;
+  font-style: normal;
+  text-align: left;
+  text-decoration: underline;
+}
+
+A.sitemaplevel1 {
+  font-family: Arial, verdana, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  text-decoration: none;
+  color: #336699;
+}
+
+A.sitemaplevel1:visited {
+  font-family: Arial, verdana, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  text-decoration: none;
+  color: #336699;
+}
+
+A.sitemaplevel1:hover {
+  font-family: Arial, verdana, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  text-decoration: underline;
+  color: #336699;
+}
+
+A.sitemaplevel1:active {
+  font-family: Arial, verdana, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  text-decoration: underline;
+  color: #990033;
+}
+
+A.sitemaplevel2 {
+  font-family: Arial, verdana, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+  text-decoration: none;
+}
+
+A.sitemaplevel2:visited {
+  font-family: Arial, verdana, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+  text-decoration: none;
+}
+
+A.sitemaplevel2:hover {
+  font-family: Arial, verdana, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+  text-decoration: underline;
+  color: #336699;
+}
+
+A.sitemaplevel2:active {
+  font-family: Arial, verdana, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+  text-decoration: underline;
+  color: #990033;
+}
+
+A.sitemaplevel3 {
+  font-family: Arial, verdana, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 70%;
+  font-style: normal;
+  text-align: left;
+  text-decoration: none;
+}
+
+A.sitemaplevel3:visited {
+  font-family: Arial, verdana, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 70%;
+  font-style: normal;
+  text-align: left;
+  text-decoration: none;
+}
+
+A.sitemaplevel3:hover {
+  font-family: Arial, verdana, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 70%;
+  font-style: normal;
+  text-align: left;
+  text-decoration: underline;
+  color: #336699;
+}
+
+A.sitemaplevel3:active {
+  font-family: Arial, verdana, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 70%;
+  font-style: normal;
+  text-align: left;
+  text-decoration: underline;
+  color: #990033;
+}
+
+.whitespace1 {
+  padding-top: 0em;
+}
+
+.whitespace2 {
+  padding-top: 1em;
+}
+.whitespace3 {
+  padding-top: 2em;
+}
+.whitespace4 {
+  padding-top: 3em;
+}
+
+/* BODY                                                     */
+/* ======================================================== */
+BODY {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-style: normal;
+  text-align: left;
+  /* BROWSER CONSIDERATION - Override browser settings for BODY margin */
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+}
+BODY.campuspipeline {
+  background-color: #ffffff;
+  color: #1e2b83;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-style: normal;
+  text-align: left;
+  /* BROWSER CONSIDERATION - Override browser settings for BODY margin */
+  margin-top: 0px;
+  background-image: none;
+  background-repeat: no-repeat;
+}
+BODY.previewbody {
+  background-color: #ffffff;
+  color: #1e2b83;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  margin-left: 2%;
+  margin-right: 2%;
+  /* Override the background image in the main BODY */
+  background-image: none;
+}
+
+BODY.validationbody {
+  background-color: #ffffff;
+  color: #1e2b83;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  margin-left: 2%;
+  margin-right: 2%;
+  /* Override the background image in the main BODY */
+  background-image: none;
+}
+
+/* DIVIDES                                                  */
+/* All divides should have rules defined for margin and     */
+/* text-align.                                              */
+/* ======================================================== */
+DIV.menulistdiv {
+  text-align: left;
+}
+
+DIV.headerwrapperdiv {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+DIV.headerwrapperdiv table.plaintable {
+  margin-top: 15px;
+}
+
+DIV.pageheaderdiv1 {
+  /* background-color: #000000; */
+  position: absolute;
+  top: 0px;
+  left: 260px;
+  line-height: 87px;
+  text-align: left;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-top: 0px solid;
+}
+
+DIV.pageheaderdiv2 {
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  float: right;
+  display: none;
+}
+
+DIV.headerlinksdiv {
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
+
+/* Class for BANNER SEARCH Form text and button controls     */
+/* ========================================================  */
+DIV.headerlinksdiv2 {
+  display: none;
+  background-color: #003366;
+  height: 24px;
+  color: white;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+}
+
+DIV.bodylinksdiv {
+  text-align: center;
+  margin-top: 1%;
+}
+
+DIV.footerlinksdiv {
+  background-color: white;
+  text-align: center;
+}
+
+DIV.footerlinksdiv p {
+  display: inline;
+}
+
+DIV.backlinkdiv {
+  text-align: right;
+  margin-top: -40px;
+}
+
+DIV.pagetitlediv {
+  margin-top: 15px;
+  text-align: left;
+}
+
+DIV.infotextdiv {
+  text-align: left;
+}
+
+DIV.pagebodydiv {
+  text-align: left;
+}
+DIV.pagebodydiv > .plaintable {
+  margin-bottom: 10px;
+}
+
+DIV.pagefooterdiv {
+  /* background-color: #003366; */
+  /* height: 24px; */
+  text-align: left;
+  /*
+border-top: 1px solid white;
+border-bottom: 1px solid white;
+padding-top: 1px;
+padding-left: 5px;
+*/
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+DIV.banner_copyright br {
+  display: none;
+}
+DIV.banner_copyright h5 {
+  padding-bottom: 20px;
+  margin: 0;
+  color: #999999;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 70%;
+  font-style: normal;
+  text-align: left;
+}
+
+DIV.poweredbydiv {
+  display: none;
+  text-align: right;
+  margin-right: -1px;
+  margin-top: 0px;
+  border-bottom: 0px solid;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-top: 0px solid;
+  float: right;
+}
+
+DIV.previewdiv {
+  text-align: center;
+}
+
+DIV.validationdiv {
+  text-align: center;
+}
+
+DIV.staticheaders {
+  text-align: right;
+  font-size: 90%;
+}
+/* HEADERS                                                  */
+/* Do not set font-size for headers - defer to browser.      */
+/* ======================================================== */
+/* H1 is reserved for Page Header */
+H1 {
+  display: inline;
+
+  color: black;
+
+  font-family: Arial Narrow, Sans-Serif;
+  font-weight: bold;
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 0px;
+}
+
+/* H2 is reserved for Page Title */
+H2 {
+  display: inline;
+  color: #557287;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Horizontal Rule for Menu Section                         */
+/* ======================================================== */
+HR {
+  color: white;
+  margin-top: -5px;
+  text-align: left;
+  height: 0px;
+  border-top: 1px solid #55891a;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+/* FORM CONTROLS                                            */
+/* ======================================================== */
+INPUT {
+  background-color: white;
+  color: #003366;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 90%;
+}
+
+INPUT[type="text"] {
+  /* only works for mozilla browsers */
+  font-size: 100%;
+}
+
+TEXTAREA {
+  /*background-color: #FFFFFF;*/
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: normal;
+}
+
+SELECT {
+  /*background-color: #FFFFFF;*/
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: normal;
+}
+
+LABEL {
+  color: #003366;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+}
+
+/* TABLES                                                   */
+/* ======================================================== */
+TABLE.dataentrytable {
+  border-bottom: 0px solid;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-top: 0px solid;
+}
+
+TABLE.datadisplaytable {
+  border-bottom: 0px solid;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-top: 0px solid;
+}
+
+TABLE.plaintable {
+  border-bottom: 0px solid;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-top: 0px solid;
+}
+
+TABLE.menuplaintable {
+}
+
+TABLE.pageheadertable {
+  margin-top: 0px;
+}
+
+TABLE.colorsampletable {
+  background-color: #ffffff;
+}
+
+TABLE.bordertable {
+  border-collapse: collapse;
+  border-bottom: 1px solid #999999;
+  border-left: 1px solid #999999;
+  border-right: 1px solid #999999;
+  border-top: 1px solid #999999;
+}
+
+/* TABLE HEADERS AND DATA CELLS                             */
+/* ======================================================== */
+TABLE TH {
+  vertical-align: top;
+  color: black;
+}
+
+TABLE TD {
+  vertical-align: top;
+  color: black;
+}
+
+.pageheadertablecell {
+  text-align: left;
+}
+
+.pageheadernavlinkstablecell {
+  text-align: right;
+}
+
+/* DATA ENTRY TABLE HEADERS AND DATA CELLS                  */
+/* Some font rules are redunant because they do not         */
+/* inherit well from the BODY on older browsers.            */
+/* ======================================================== */
+TD.deheader {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  /* Make titles big and chunky. */
+  padding: 3px;
+  border-top: 1px solid #eeeebb;
+  border-left: 1px solid #eeeebb;
+  border-bottom: 1px solid #bbbbaa;
+  border-right: 1px solid #bbbbaa;
+}
+
+TH.deheader {
+  background-color: #eeeeee;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TD.detitle {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 90%;
+  text-align: left;
+  vertical-align: bottom;
+  /* Make titles big and chunky. */
+  padding: 3px;
+  border-top: 1px solid #eeeebb;
+  border-left: 1px solid #eeeebb;
+  border-bottom: 1px solid #bbbbaa;
+  border-right: 1px solid #bbbbaa;
+}
+
+TABLE TH.detitle {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  /* Make titles big and chunky. */
+  padding: 3px;
+  border-top: 1px solid #eeeebb;
+  border-left: 1px solid #eeeebb;
+  border-bottom: 1px solid #bbbbaa;
+  border-right: 1px solid #bbbbaa;
+}
+
+TD.delabel {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 90%;
+  text-align: left;
+  vertical-align: top;
+  /* Make titles big and chunky. */
+  padding: 3px;
+  border-top: 1px solid #eeeebb;
+  border-left: 1px solid #eeeebb;
+  border-bottom: 1px solid #bbbbaa;
+  border-right: 1px solid #bbbbaa;
+}
+
+TH.delabel {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  /* Make titles big and chunky. */
+  padding: 3px;
+  border-top: 1px solid #eeeebb;
+  border-left: 1px solid #eeeebb;
+  border-bottom: 1px solid #bbbbaa;
+  border-right: 1px solid #bbbbaa;
+}
+
+TD.deseparator {
+  color: black;
+  background-color: #dddddd;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TD.dehighlight {
+  color: #333333;
+  background-color: white;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TD.dedead {
+  color: black;
+  background-color: #eeeeee;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TD.dedefault {
+  color: black;
+  background-color: #eeeeee;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TD.dewhite {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TD.deborder {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+  border: 1px solid;
+}
+
+TD.dedefaultsml {
+  color: #000000;
+  background-color: #eeeeee;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 70%;
+  font-style: normal;
+  vertical-align: top;
+}
+
+TD.dewhitesml {
+  background-color: white;
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 70%;
+  font-style: normal;
+  vertical-align: top;
+}
+
+TD.delabelsml {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 70%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  /* Make titles big and chunky. */
+  padding: 2px;
+  border-top: 1px solid #eeeebb;
+  border-left: 1px solid #eeeebb;
+  border-bottom: 1px solid #bbbbaa;
+  border-right: 1px solid #bbbbaa;
+}
+
+/* DATA DISPLAY TABLE HEADERS AND DATA CELLS                */
+/* Some font rules are redunant because they do not         */
+/* inherit well from the BODY on older browsers.            */
+/* ======================================================== */
+TABLE TD.ddheader {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  padding: 3px;
+  border-top: 1px solid #eeeebb;
+  border-left: 1px solid #eeeebb;
+  border-bottom: 1px solid #bbbbaa;
+  border-right: 1px solid #bbbbaa;
+}
+
+TABLE TH.ddheader {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  padding: 3px;
+  border-top: 1px solid #eeeebb;
+  border-left: 1px solid #eeeebb;
+  border-bottom: 1px solid #bbbbaa;
+  border-right: 1px solid #bbbbaa;
+}
+
+TABLE TD.ddtitle {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  /* Make titles big and chunky. */
+  padding-bottom: 1em;
+  border-top: 1px solid #eeeebb;
+  border-left: 1px solid #eeeebb;
+  border-bottom: 1px solid #bbbbaa;
+  border-right: 1px solid #bbbbaa;
+}
+
+TABLE TH.ddtitle {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  /* Make titles big and chunky. */
+  padding-bottom: 1em;
+  border-top: 1px solid #eeeebb;
+  border-left: 1px solid #eeeebb;
+  border-bottom: 1px solid #bbbbaa;
+  border-right: 1px solid #bbbbaa;
+}
+
+TABLE TD.ddlabel {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #eeeebb;
+  border-left: 1px solid #eeeebb;
+  border-bottom: 1px solid #bbbbaa;
+  border-right: 1px solid #bbbbaa;
+}
+
+TABLE TH.ddlabel {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #eeeebb;
+  border-left: 1px solid #eeeebb;
+  border-bottom: 1px solid #bbbbaa;
+  border-right: 1px solid #bbbbaa;
+}
+
+TABLE TD.ddseparator {
+  color: black;
+  background-color: #dddddd;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TABLE TD.ddhighlight {
+  color: #333333;
+  background-color: white;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TABLE TD.dddead {
+  color: black;
+  background-color: #eeeeee;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TABLE TD.dddefault {
+  color: black;
+  background-color: #eeeeee;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  /*border-bottom: 1pt #BFBFBF solid; */
+}
+
+TABLE TD.ddnontabular {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TABLE TD.ddwhite {
+  color: black;
+  background-color: white;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* PLAIN TABLE HEADERS AND DATA CELLS                       */
+/* These table data cell classes pertain to a table that is */
+/* used strictly for layout. They do not have the redundant */
+/* font rules because it is assumed that whatever is placed */
+/* in these TD/TH tags will have its own class.             */
+/* ======================================================== */
+TABLE TD.pltitle {
+  font-weight: bold;
+}
+
+TABLE TD.plheader {
+  font-weight: bold;
+}
+
+TABLE TH.pllabel {
+  font-weight: bold;
+}
+
+TABLE TD.plseparator {
+  font-weight: normal;
+}
+
+TABLE TD.plhighlight {
+  font-weight: normal;
+}
+
+TABLE TD.pldead {
+  font-weight: normal;
+}
+
+TABLE TD.pldefault {
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+}
+
+TD.pldefaultsml {
+  font-weight: normal;
+  font-size: 70%;
+}
+
+TABLE TD.plwhite {
+  font-weight: normal;
+}
+
+TD.plwhitesml {
+  font-weight: normal;
+  font-size: 70%;
+}
+
+TABLE TD.plheaderlinks {
+  font-weight: normal;
+}
+
+/*========================================================*/
+/*=======  Class for header links=========================*/
+/*========================================================*/
+
+TABLE TD.plheadermenulinks {
+  padding-top: 6px;
+  font-size: 80%;
+  font-weight: normal;
+}
+
+/* MENU PLAIN TABLE HEADERS AND DATA CELLS                  */
+/* ======================================================== */
+TABLE TD.mptitle {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TABLE TD.mpheader {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TABLE TH.mplabel {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TABLE TD.mpwhite {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TABLE TD.mpdefault {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TABLE TD.indefault {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+}
+
+/* Define tables with border				    */
+/* ======================================================== */
+TABLE TD.dbheader {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  padding: 2px;
+  border: 1px solid;
+}
+
+TABLE TH.dbheader {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  padding: 2px;
+  border: 1px solid;
+}
+
+TABLE TD.dbtitle {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  /* Make titles big and chunky. */
+  padding-bottom: 1em;
+  border: 1px solid;
+}
+
+TABLE TH.dbtitle {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  /* Make titles big and chunky. */
+  padding-bottom: 1em;
+  border: 1px solid;
+}
+
+TABLE TD.dblabel {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  padding: 2px;
+  border: 1px solid;
+}
+
+TABLE TH.dblabel {
+  background-color: #ddddaa;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  padding: 2px;
+  border: 1px solid;
+}
+TABLE TD.dbdefault {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid;
+}
+
+/* NON TABULAR TABLE DATA DISPLAY  HEADERS AND DATA CELLS  */
+/* Some font rules are redunant because they do not         */
+/* inherit well from the BODY on older browsers.            */
+/* ======================================================== */
+TABLE TD.ntheader {
+  background-color: #eeeeee;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TABLE TH.ntheader {
+  background-color: #eeeeee;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TABLE TD.nttitle {
+  background-color: #eeeeee;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  /* Make titles big and chunky. */
+  padding-bottom: 1em;
+}
+
+TABLE TH.nttitle {
+  background-color: #eeeeee;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+  /* Make titles big and chunky. */
+  padding-bottom: 1em;
+}
+
+TABLE TD.ntlabel {
+  background-color: #eeeeee;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TABLE TH.ntlabel {
+  background-color: #eeeeee;
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TABLE TD.ntseparator {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TABLE TD.nthighlight {
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TABLE TD.ntdead {
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TABLE TD.ntdefault {
+  color: black;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+TABLE TD.ntwhite {
+  color: #333333;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* Academic TimeTable Cells */
+
+TD.detthdr {
+  /* title line   */
+  font-family: Arial, Verdana, Sans-Serif;
+  background-color: #ffffff;
+  font-size: 80%;
+
+  border: 0px solid #ffffff;
+}
+
+TD.dettl {
+  /* lecture      */
+  font-family: Arial, Verdana, Sans-Serif;
+  background-color: #eeeecc;
+  font-size: 80%;
+}
+
+TD.dettb {
+  /* lab          */
+  font-family: Arial, Verdana, Sans-Serif;
+  background-color: #ddeedd;
+  font-size: 80%;
+}
+
+TD.dettt {
+  /* tutorial     */
+  font-family: Arial, Verdana, Sans-Serif;
+  background-color: #ccdddd;
+  font-size: 80%;
+}
+
+TD.detta {
+  /* audit        */
+  font-family: Arial, Verdana, Sans-Serif;
+  background-color: #efefef;
+  font-size: 80%;
+}
+
+TD.dettk {
+  /* workshop     */
+  font-family: Arial, Verdana, Sans-Serif;
+  background-color: #eeddcc;
+  font-size: 80%;
+}
+
+TD.detts {
+  /* thesis       */
+  font-family: Arial, Verdana, Sans-Serif;
+  background-color: #ddeeee;
+  font-size: 80%;
+}
+
+TD.dettw {
+  /* workterm     */
+  font-family: Arial, Verdana, Sans-Serif;
+  background-color: #ddccdd;
+  font-size: 80%;
+}
+
+TD.dette {
+  /* ensemble     */
+  font-family: Arial, Verdana, Sans-Serif;
+  background-color: #ddddee;
+  font-size: 80%;
+}
+
+TD.detti {
+  /* internship   */
+  font-family: Arial, Verdana, Sans-Serif;
+  background-color: #dedecd;
+  font-size: 80%;
+}
+
+/*
+******************************************
+
+Additional classes from the Banner 7 web_defaultmenu.css
+file that define classes that are used for the display of
+the tabs and the horizontal lines.
+
+                              B Peveril
+                              7-NOV-2006
+*******************************************
+*/
+
+.bgtabon {
+  border-bottom: 3px solid #206e9f;
+  background-color: #206e9f;
+}
+.bgtabon img {
+  display: none;
+}
+.bgtaboff {
+}
+.bgtaboff img {
+  display: none;
+}
+.texttabon {
+  color: #ffffff;
+}
+.texttaboff {
+  color: #000000;
+}
+.tabon {
+  padding-top: 4px;
+  border-left: 1px solid #ffffff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-color: #206e9f;
+}
+.tabon A:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.tabon A:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+.tabon A:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+.tabon A:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.taboff {
+  padding-top: 4px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-left: 1px solid #ffffff;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000000;
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+}
+.taboff A:link {
+  color: #000000;
+  text-decoration: none;
+}
+.taboff A:visited {
+  color: #000000;
+  text-decoration: none;
+}
+.taboff A:active {
+  color: #000000;
+  text-decoration: none;
+}
+.taboff A:hover {
+  color: #000000;
+  text-decoration: none;
+}
+.bg3 {
+  background-color: #003366;
+}
+.bg3 img {
+  display: none;
+}
+
+/*
+Banner 8.3 25-Oct-2010, R B Peveril
+Added from here to end of file
+*/
+/****************************************************************************/
+/*                        START OF CASA CLASSES                             */
+/****************************************************************************/
+.mod_ge_header {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+}
+.mod_ge_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: italic;
+  text-align: left;
+}
+.mod_ge_footer {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 95%;
+  font-style: italic;
+  text-align: left;
+}
+.mod_aw_header {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+}
+.mod_aw_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: italic;
+  text-align: left;
+}
+.mod_aw_footer {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 95%;
+  font-style: italic;
+  text-align: left;
+}
+.sel_aw_label {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: bold;
+  text-align: left;
+}
+.sel_aw_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: italic;
+  text-align: left;
+}
+.sel_aw_footer {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: italic;
+  text-align: left;
+}
+.sect_pl_label {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+}
+.sect_pl_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 95%;
+  font-style: italic;
+  text-align: left;
+}
+.sect_pl_qc_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: italic;
+  text-align: left;
+}
+.sect_pl_qc_header {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 95%;
+  font-style: normal;
+  text-align: left;
+}
+.sect_pl_footer {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: italic;
+  text-align: left;
+}
+.sect_aw_label {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+}
+.sect_aw_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 95%;
+  font-style: italic;
+  text-align: left;
+}
+.sect_aw_treq_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 85% to 95% */
+  font-size: 95%;
+  font-style: italic;
+  text-align: left;
+}
+.sect_aw_qc_header {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 95%;
+  font-style: normal;
+  text-align: left;
+}
+.sect_aw_treq_header {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 95%;
+  font-style: normal;
+  text-align: left;
+}
+.sect_aw_footer {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: italic;
+  text-align: left;
+}
+.ques_ge_label {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 85% to 125% */
+  font-size: 125%;
+  font-style: normal;
+  text-align: left;
+}
+.ques_ge_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 80% to 90% */
+  font-size: 90%;
+  font-style: italic;
+  text-align: left;
+}
+.ques_ge_footer {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 80% to 90% */
+  font-size: 90%;
+  font-style: italic;
+  text-align: left;
+}
+.ques_aw_label {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+}
+.ques_aw_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 85% to 95% */
+  font-size: 95%;
+  font-style: italic;
+  text-align: left;
+}
+.ques_aw_footer {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 80% to 90% */
+  font-size: 90%;
+  font-style: italic;
+  text-align: left;
+}
+.treq_aw_label {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+}
+.treq_aw_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 85% to 95% */
+  font-size: 95%;
+  font-style: italic;
+  text-align: left;
+}
+.treq_aw_footer {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 80% to 90% */
+  font-size: 90%;
+  font-style: italic;
+  text-align: left;
+}
+.text_decl {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 80% to 90% */
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+}
+.chk_mod {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: bold;
+  text-align: left;
+}
+.chk_sect_pl {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 95%;
+  font-style: normal;
+  text-align: left;
+}
+.chk_sel_aw {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 95%;
+  font-style: normal;
+  text-align: left;
+}
+.chk_sect_aw {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+}
+.qry_aw_title {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: bold;
+  text-align: left;
+}
+.qry_aw_desc {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: bold;
+  /*FP#18788 - increase font by 10% from 80% to 90% */
+  font-size: 90%;
+  font-style: bold;
+  text-align: left;
+}
+.qry_tr_header {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: bold;
+  /*FP#18788 - increase font by 10% from 75% to 85% */
+  font-size: 85%;
+  font-style: bold;
+  text-align: left;
+}
+.qry_tr_desc {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 75% to 85% */
+  font-size: 85%;
+  font-style: italic;
+  text-align: left;
+}
+.qry_details_class {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 75% to 85% */
+  font-size: 85%;
+  font-style: normal;
+  text-align: left;
+}
+.qry_fieldlabeltext {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: bold;
+  /*FP#18788 - increase font by 10% from 80% to 90% */
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+}
+/****************************************************************************/
+/*                        NEED ANALYSIS CLASSES                             */
+/****************************************************************************/
+.mod_na_header {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+}
+.mod_na_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: italic;
+  text-align: left;
+}
+.mod_na_footer {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 95%;
+  font-style: italic;
+  text-align: left;
+}
+.sect_bg_label {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 95%;
+  font-style: normal;
+  text-align: left;
+}
+.sect_bg_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: italic;
+  text-align: left;
+}
+.sect_bg_qc_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 85% to 95% */
+  font-size: 95%;
+  font-style: italic;
+  text-align: left;
+}
+.sect_bg_qc_header {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+}
+.sect_bg_footer {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 75% to 85% */
+  font-size: 85%;
+  font-style: italic;
+  text-align: left;
+}
+.sel_bg_label {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+}
+.sel_bg_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 95%;
+  font-style: italic;
+  text-align: left;
+}
+.sel_bg_footer {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 95%;
+  font-style: italic;
+  text-align: left;
+}
+.sect_bc_label {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-style: normal;
+  text-align: left;
+}
+.sect_bc_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 95%;
+  font-style: italic;
+  text-align: left;
+}
+.sect_bc_qc_header {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+}
+.sect_bc_footer {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: italic;
+  text-align: left;
+}
+.sect_bc_treq_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: italic;
+  text-align: left;
+}
+.sect_bc_treq_header {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 95%;
+  font-style: normal;
+  text-align: left;
+}
+.ques_bg_label {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 85% to 95% */
+  font-size: 95%;
+  font-style: normal;
+  text-align: left;
+}
+.ques_bg_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 80% to 90% */
+  font-size: 90%;
+  font-style: italic;
+  text-align: left;
+}
+.ques_bg_footer {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 75% to 85% */
+  font-size: 85%;
+  font-style: italic;
+  text-align: left;
+}
+.ques_bc_label {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+}
+.ques_bc_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 85% to 95% */
+  font-size: 95%;
+  font-style: italic;
+  text-align: left;
+}
+.ques_bc_footer {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 80% to 90% */
+  font-size: 90%;
+  font-style: italic;
+  text-align: left;
+}
+.treq_bc_label {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: normal;
+  text-align: left;
+}
+.treq_bc_info_text {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  /*FP#18788 - increase font by 10% from 85% to 95% */
+  font-size: 95%;
+  font-style: italic;
+  text-align: left;
+}
+.treq_bc_footer {
+  color: black;
+  font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 90%;
+  font-style: italic;
+  text-align: left;
+}
